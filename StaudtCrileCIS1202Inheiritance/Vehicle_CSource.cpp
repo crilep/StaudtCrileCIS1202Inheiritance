@@ -2,6 +2,7 @@
 #include "Vehicle_C.h"
 #include<iostream>
 
+//defualt constructor
 Vehicle_C::Vehicle_C() {
 
 	manufacturer = "";
@@ -9,6 +10,7 @@ Vehicle_C::Vehicle_C() {
 
 };
 
+//constructor #2
 Vehicle_C::Vehicle_C(string vehicleManu, int vechicleYear) {
 
 	manufacturer = vehicleManu;
@@ -16,6 +18,7 @@ Vehicle_C::Vehicle_C(string vehicleManu, int vechicleYear) {
 
 };
 
+//getters and setters
 string Vehicle_C::Get_Manufacturer() {
 
 	return manufacturer;
@@ -40,6 +43,7 @@ void Vehicle_C::Set_Year(int vechicleYear) {
 
 };
 
+//display information
 void Vehicle_C::Display_Info() {
 
 	cout << "\n\nVehicle Information: ";
