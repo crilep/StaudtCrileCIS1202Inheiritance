@@ -38,7 +38,7 @@ void SUV_C::Set_Gas_Capacity(int gasCap) {
 //display information
 void SUV_C::Display_Info() {
 
-	cout << "\n\Car Information: ";
+	cout << "\n\SUV Information: ";
 	cout << "\nManufacturer: " << Get_Manufacturer();
 	cout << "\nYear Built: " << Get_Year();
 	cout << "\nDoors: " << Get_Number_Doors();

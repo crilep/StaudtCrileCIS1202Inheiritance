@@ -21,6 +21,7 @@ int main() {
 
 	//get user input for vehicle object
 	cout << "\n*********Vehicle Program*********\n\n";
+	cout << "\nVehicle:\n\n";
 	cout << "Enter the manufactuer: ";
 	getline(cin, manufactuer);
 	cout << "Enter the vehicle year: ";
@@ -33,8 +34,8 @@ int main() {
 	//display info
 	vehicle.Display_Info();
 
-
-	cout << "\n\n\nEnter the manufactuer: ";
+	cout << "\n\nCar:";
+	cout << "\n\nEnter the manufactuer: ";
 	getline(cin, manufactuer);
 	cout << "Enter the vehicle year: ";
 	getline(cin, tempString);
@@ -50,7 +51,8 @@ int main() {
 	car.Display_Info();
 
 	//get user input for SUV object
-	cout << "\n\n\nEnter the manufactuer: ";
+	cout << "\n\nSUV:";
+	cout << "\n\nEnter the manufactuer: ";
 	getline(cin, manufactuer);
 	cout << "Enter the vehicle year: ";
 	getline(cin, tempString);
